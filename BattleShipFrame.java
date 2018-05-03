@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
+
 import javax.swing.border.*;
 import java.awt.GridLayout;
 import javax.swing.JOptionPane;
@@ -21,6 +21,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
 public class BattleShipFrame extends JFrame {
+	private static final long serialVersionUID = 1L;
 	private JButton[] buttonArray;
 	private JLabel countLives;
 	private JLabel shipsLeft;
@@ -29,7 +30,7 @@ public class BattleShipFrame extends JFrame {
 	private ImageIcon sunkShip;
 	private ImageIcon ship;
 	private ImageIcon sea;
-	private Color changeColor;
+	
 	private JButton reset;
 	private JButton cancel;
 	private JButton exit;
